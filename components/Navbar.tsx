@@ -30,13 +30,19 @@ const Navbar = () => {
           </NavigationMenuItem>
 
           <NavigationMenuItem>
-            <NavigationMenuLink href="/about">About</NavigationMenuLink>
+            <NavigationMenuLink href="/announcements">
+              Announcements
+            </NavigationMenuLink>
           </NavigationMenuItem>
 
           <NavigationMenuItem>
             <NavigationMenuLink href="/organizations">
               Organizations
             </NavigationMenuLink>
+          </NavigationMenuItem>
+
+          <NavigationMenuItem>
+            <NavigationMenuLink href="/about">About</NavigationMenuLink>
           </NavigationMenuItem>
 
           <NavigationMenuItem>
