@@ -6,7 +6,7 @@ import PostComponent from "@/components/PostComponent";
 
 import PostType from "@/_types/PostType";
 
-const PostPage = () => {
+const AnnouncementsPage = () => {
   const [posts, setPosts] = useState<PostType[]>([]);
 
   const getPosts = async () => {
@@ -38,4 +38,4 @@ const PostPage = () => {
   );
 };
 
-export default PostPage;
+export default AnnouncementsPage;
