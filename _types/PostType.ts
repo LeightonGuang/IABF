@@ -1,8 +1,9 @@
 interface PostType {
-  id: number;
+  id?: number;
   title: string;
   img_url: string;
   content: string;
+  created_at?: Date;
 }
 
 export default PostType;
