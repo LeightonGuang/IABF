@@ -3,6 +3,11 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@theme {
+  --color-discord-primary: #5865f2;
+  --color-facebook-primary: #3b5998;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
